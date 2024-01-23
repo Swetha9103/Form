@@ -1,0 +1,47 @@
+body {
+    
+    height: 100vh;
+    margin: 0;
+    background-image: url("bcimage5.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+label{
+    display: inline-block;
+    width: 100px; 
+}
+h3{
+    text-align: center;
+}
+button{
+    margin-left: 50px;
+}
+form{
+    width: 300px;  
+}
+#left-container{
+    background-color: rgb(221, 216, 223);
+    float: left;
+    width: 40%;
+    height: 100%;
+    border-radius: 5%;
+    padding-top: 20px;
+}
+#right-container{
+
+    background-color: rgb(221, 216, 223);
+    /* float: left; */
+    width: 40%;
+    height: 100%;
+    margin: 20px;
+    padding: 30px;
+    border-radius: 5%;
+}
+#mainWrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;   
+}
+button{
+    font-size: x-large;
+}
